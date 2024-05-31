@@ -21,7 +21,7 @@ int main(){
 }
 
 void studentAttendance(double Attendance){ 
-    if(Attendance < 75.0){ 
+    if(Attendance < 75){ 
         printf("The student is not allowed to sit in an exam. \n");
     } else {
         printf("The student is allowed to sit in an exam. \n");
